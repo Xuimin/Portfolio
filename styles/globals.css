@@ -1,16 +1,253 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: linear-gradient(to bottom, #a97492, #ece6ea);
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
-
 a {
   color: inherit;
   text-decoration: none;
 }
-
 * {
   box-sizing: border-box;
+}
+
+
+/* LIST */
+li.no-list {
+  list-style: circle;
+}
+
+
+.navigate {
+  color: #593d56;
+  text-decoration: none;
+}
+.navigate:hover {
+  color: #593d56;
+  text-decoration: none;
+  border: 1px solid #593d56;
+  border-radius: 30%;
+}
+span.title {
+  font-size: 2.5rem;
+}
+.subtitle {
+  color: #593d56;
+}
+.radius {
+  border-radius: 50%;
+}
+img {
+  margin: 10px;
+}
+
+/* HOME */
+section.front {
+  width: 100%;
+  min-height: 100vh;
+  color: #fff;
+  background: linear-gradient(-45deg, #593d56,
+  #a97492, #ece6ea); 
+  /* color */
+  background-size: 200% 200%;
+  position: relative;
+  animation: change 10s ease-in-out infinite;
+}
+h1.front {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 3px solid #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 8rem 10rem 8rem 10rem;
+  text-align: center;
+}
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+
+/* ICON */
+i, a.nav-link {
+  color: #a97492;
+}
+i:hover, a.nav-link:hover {
+  color: #593d56;
+  background-color: #ece6ea;
+  border-radius: 3px;
+}
+i.icon {
+  color: #593d56;
+}
+i.icon:hover {
+  background-color: transparent;
+  color: #593d56;
+}
+
+/* GLOBAL */
+.bottom { 
+  position: relative;
+  padding: 20px;
+}
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #593d56;
+}
+div.quotes {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #593d56;
+}
+.pointer {
+  cursor: pointer;
+}
+.link {
+  color: #a97492;
+  text-decoration: none;
+  font-style: italic;
+  border-bottom: 1px solid #a97492;
+}
+.link:hover {
+  color: #593d56;
+  text-decoration: none;
+  font-style: italic;
+  border-bottom: 1px solid #593d56;
+}
+.hover-grow:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.3s ease-in-out;
+}
+.hover-shrink:hover {
+  transform: scale(0.9, 0.9);
+  transition: 0.3s ease-in-out;
+}
+.bg-none, .bg-none i, .bg-none a {
+  background-color: transparent!important;
+  color: #593d56;
+  text-decoration: none;
+}
+.fs-color {
+  color: #0054a6;
+  font-weight: 600;
+}
+
+
+/* BUTTON */
+button.btn.btn-primary {
+  color: #fff;
+  background-color: #a97492;
+  border: none;
+}
+.fullwidth {
+  display: block;
+  width: 50%;
+  position: absolute;
+  margin-top: 20px;
+  left: 25%;
+}
+button.btn.btn-primary i {
+  color: #fff;
+}
+button.btn.btn-primary i:hover {
+  color: #fff;
+  background-color: transparent;
+}
+li.nav-item button.nav-link {
+  color: #593d56;
+}
+li.nav-item button.nav-link.active {
+  color: #ece6ea;
+  background-color: transparent;
+  border: 1px solid #ece6ea;
+}
+
+
+/* HOME ANIMATION */
+.box-area {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.box-area li {
+	position: absolute;
+	display: block;
+	list-style: none;
+	width: 25px;
+	height: 25px;
+	background: rgba(255, 255, 255, 0.2);
+	animation: animate 20s linear infinite;
+	bottom: -150px;
+}
+.box-area li:nth-child(1) {
+	left: 86%;
+	width: 80px;
+	height: 80px;
+	animation-delay: 0s;
+}
+.box-area li:nth-child(2) {
+	left: 12%;
+	width: 30px;
+	height: 30px;
+	animation-delay: 1.5s;
+	animation-duration: 10s;
+}
+.box-area li:nth-child(3) {
+	left: 70%;
+	width: 100px;
+	height: 100px;
+	animation-delay: 5.5s;
+}
+.box-area li:nth-child(4) {
+	left: 42%;
+	width: 150px;
+	height: 150px;
+	animation-delay: 0s;
+	animation-duration: 15s;
+}
+.box-area li:nth-child(5) {
+	left: 65%;
+	width: 40px;
+	height: 40px;
+	animation-delay: 0s;
+}
+.box-area li:nth-child(6) {
+	left: 15%;
+	width: 110px;
+	height: 110px;
+	animation-delay: 3.5s;
+}
+@keyframes animate {
+	0% {
+		transform: translateY(0) rotate(0deg);
+		opacity: 1;
+	}
+	100% {
+		transform: translateY(-800px) rotate(360deg);
+		opacity: 0;
+	}
 }
