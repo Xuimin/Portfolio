@@ -24,7 +24,8 @@ function Presentation() {
             <a href='https://docs.google.com/presentation/d/1vSSiyIky8suDdOVWnttZnSCf6EeKyQ9PU_ePOMKB8Us/edit'>
               <Image src={LargestRect}
               width={700} 
-              height={500} /> 
+              height={500}
+              alt="Largest Rectangle" /> 
             </a>
             <small>26 Nov 2021</small>
           </Col>
@@ -33,7 +34,8 @@ function Presentation() {
             <a href='https://docs.google.com/presentation/d/12e2H7CkIH_ra0v193vJiFhhONRL3n7rceSPGrI6Tquw/edit'>
               <Image src={DndAPI}
               width={700} 
-              height={500} /> 
+              height={500}
+              alt="DND API" /> 
             </a>
             <small>21 Dec 2021</small>
           </Col>
@@ -42,7 +44,8 @@ function Presentation() {
             <a href='https://docs.google.com/presentation/d/1XuYT_XIrA1zWbWtbrl4qVP6x9bYB0bCUK7g838Q8nFM/edit'>
               <Image src={ProductivityAPI}
               width={700} 
-              height={500} /> 
+              height={500}
+              alt="Productivity App API" /> 
             </a>
             <small>29 Dec 2021</small>
           </Col>
@@ -51,7 +54,8 @@ function Presentation() {
             <a href='https://docs.google.com/presentation/d/1V8CFj_ukkRWludXRUieKo-sCS52PlOTs2pFLS9d3kDI/edit'>
               <Image src={MaterialDesignLayout}
               width={700} 
-              height={500} /> 
+              height={500}
+              alt="Material Design" /> 
             </a>
             <small>30 Mar 2022</small>
           </Col>
@@ -60,7 +64,8 @@ function Presentation() {
             <a href='https://docs.google.com/presentation/d/12X1WXMQ-OSVi5H2KzkoZYfmc5Hri_pejy6TFHImrgOU/edit'>
               <Image src={MyCarePre}
               width={700} 
-              height={500} /> 
+              height={500}
+              alt="MyCare Prototype" /> 
             </a>
             <small>4 May 2022</small>
           </Col>
@@ -69,7 +74,8 @@ function Presentation() {
             <a href='https://www.figma.com/file/MnEnNwQs4mqpre9FlB8pQR/Tracing-App'>
               <Image src={MyCare}
               width={700} 
-              height={500} /> 
+              height={500}
+              alt="MyCare" /> 
             </a>
             <small>4 May 2022</small>
           </Col>
@@ -78,7 +84,8 @@ function Presentation() {
             <a href='https://docs.google.com/presentation/d/1OETA_FCWuDxiG3iCJx0Q9fI_rFOvBtpddmZr8B2SZqs/edit'>
               <Image src={HealthPalPre}
               width={700} 
-              height={500} /> 
+              height={500}
+              alt="HealthPal Prototype" /> 
             </a>
             <small>19 May 2022</small>
           </Col>
@@ -87,7 +94,8 @@ function Presentation() {
             <a href='https://www.figma.com/file/PbSAms8iyIkhTVobZQsqon/HealthPal'>
               <Image src={HealthPal}
               width={700} 
-              height={500} /> 
+              height={500}
+              alt="HealthPal" /> 
             </a>
             <small>19 May 2022</small>
           </Col>

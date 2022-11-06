@@ -25,7 +25,8 @@ function Assignment() {
           <a href='https://xm-huawei-clone-website.netlify.app/'>
             <Image src={Huawei}
             width={700} 
-            height={500} /> 
+            height={500}
+            alt="Huawei Clone" /> 
           </a>
           <small>29 Jun 2021</small>
         </Col>
@@ -34,7 +35,8 @@ function Assignment() {
           <a href='https://xm-redmi-clone-website.netlify.app/'>
             <Image src={Redmi}
             width={700} 
-            height={500} /> 
+            height={500}
+            alt="Redmi Clone" /> 
           </a>
           <small>29 Jun 2021</small>
         </Col>
@@ -43,7 +45,8 @@ function Assignment() {
           <a href='https://xm-keychron-clone-website.netlify.app/'>
             <Image src={Keychron}
             width={700} 
-            height={500} /> 
+            height={500}
+            alt="Keychron Clone" /> 
           </a>
           <small>1 Jul 2021</small>
         </Col>
@@ -52,7 +55,8 @@ function Assignment() {
           <a href='https://xm-asus-clone-website.netlify.app/'>
             <Image src={Asus}
             width={700} 
-            height={500} /> 
+            height={500}
+            alt="ASUS Clone" /> 
           </a>
           <small>5 Jul 2021</small>
         </Col>
@@ -61,7 +65,8 @@ function Assignment() {
           <a href='https://xm-ethereum-clone-website.netlify.app/'>
             <Image src={Ethereum}
             width={700} 
-            height={500} /> 
+            height={500}
+            alt="Ethereum Clone" /> 
           </a>
           <small>6 Jul 2021</small>
         </Col>
@@ -70,7 +75,8 @@ function Assignment() {
           <a href='https://xm-intel-gaming-clone-website.netlify.app/'>
             <Image src={IntelGaming}
             width={700} 
-            height={500} /> 
+            height={500}
+            alt="Intel Gaming CLone" /> 
           </a>
           <small>8 Jul 2021</small>
         </Col>
@@ -79,7 +85,8 @@ function Assignment() {
           <a href='https://xm-usd-coin-clone-website.netlify.app/'>
             <Image src={USDCoin}
             width={700} 
-            height={500} /> 
+            height={500}
+            alt="USD Coin Clone" /> 
           </a>
           <small>12 Jul 2021</small>
         </Col>
@@ -88,7 +95,8 @@ function Assignment() {
           <a href='https://xm-polkadot-clone-website.netlify.app/'>
             <Image src={Polkadot}
             width={700} 
-            height={500} /> 
+            height={500}
+            alt="Polkadot Clone" /> 
           </a>
           <small>13 Jul 2021</small>
         </Col>
@@ -97,7 +105,8 @@ function Assignment() {
           <a href='https://xm-inspirational-quotesxm.netlify.app/'>
             <Image src={Quotes}
             width={700} 
-            height={500} /> 
+            height={500}
+            alt="Inspirational Quotes" /> 
           </a>
           <small>15 May 2022</small>
         </Col>

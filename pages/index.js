@@ -18,7 +18,7 @@ function Home() {
       <section className='front'>
         <TopNav />
         <h1 className='front'>
-          Welcome to Xuimin's Portfolio
+          Welcome to Xuimin&apos;s Portfolio
           <br/>
           <ul className='box-area'>
             <li></li>
@@ -28,7 +28,7 @@ function Home() {
             <li></li>
             <li></li>
           </ul>
-          <Button className='fullwidth' onClick={() => linkHandler('/about')}>Let's go!</Button>
+          <Button className='fullwidth' onClick={() => linkHandler('/about')}>Let&apos;s go!</Button>
         </h1>
       </section>
     </>

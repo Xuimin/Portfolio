@@ -21,7 +21,8 @@ function AllProjects() {
           <a href='https://clever-borg-95242d.netlify.app/'>
             <Image src={Portfolio1}
             width={700} 
-            height={500} /> 
+            height={500}
+            alt="My First Portfolio" /> 
           </a>
           <small>19 Jul 2021</small>
         </Col>
@@ -30,7 +31,8 @@ function AllProjects() {
           <a href='https://wonderful-jones-2a7d5a.netlify.app/'>
             <Image src={Japan}
             width={700} 
-            height={500} /> 
+            height={500}
+            alt="Japan" /> 
           </a>
           <small>19 Jul 2021</small>
         </Col>
@@ -39,7 +41,8 @@ function AllProjects() {
           <a href='http://127.0.0.1:3000/'>
             <Image src={FoodOrdering}
             width={700} 
-            height={500} /> 
+            height={500}
+            alt="FoodOrdering" /> 
           </a>
           <small>23 Sep 2021</small>
         </Col>
@@ -48,7 +51,8 @@ function AllProjects() {
           <a href='https://xuimin-productivity-app.netlify.app/'>
             <Image src={Productivity}
             width={700} 
-            height={500} /> 
+            height={500}
+            alt="Productivity App" /> 
           </a>
           <small>29 Dec 2021</small>
         </Col>
@@ -57,7 +61,8 @@ function AllProjects() {
           <a href='https://books-corner-client.vercel.app/'>
             <Image src={BooksCorner}
             width={700} 
-            height={500} /> 
+            height={500}
+            alt="Books Corner App" /> 
           </a>
           <small>24 Jan 2022</small>
         </Col>

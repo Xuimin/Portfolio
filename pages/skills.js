@@ -124,233 +124,54 @@ function Skills() {
 
         <Col md={4} className="justify-content-center">
           <div className="text-center mt-4 mb-4">
-            <Image src={HTML} className="img-fluid radius" height={80} width={80} />
-            <Image src={CSS} className="img-fluid radius" height={80} width={80} />
-            <Image src={JS} className="img-fluid radius" height={80} width={80} />
-            <Image src={PHP} className="img-fluid radius" height={80} width={80} />
-            <Image src={Node} className="img-fluid radius" height={80} width={80} />
-            <Image src={Reactjs} className="img-fluid radius" height={80} width={80} />
-            <Image src={Nextjs} className="img-fluid radius" height={80} width={80}/>
-            <Image src={Java} className="img-fluid radius" height={80} width={80} />
-            <Image src={Kotlin} className="img-fluid radius" height={80} width={80} />
-            <Image src={Python} className="img-fluid radius" height={80} width={80} />
-            <Image src={MySQL} className="img-fluid radius" height={80} width={80} />
+            <Image src={HTML} className="img-fluid radius" height={80} width={80} alt="HTML" />
+            <Image src={CSS} className="img-fluid radius" height={80} width={80} alt="CSS" />
+            <Image src={JS} className="img-fluid radius" height={80} width={80} alt="JS" />
+            <Image src={PHP} className="img-fluid radius" height={80} width={80} alt="PHP" />
+            <Image src={Node} className="img-fluid radius" height={80} width={80} alt="NodeJS" />
+            <Image src={Reactjs} className="img-fluid radius" height={80} width={80} alt="ReactJS" />
+            <Image src={Nextjs} className="img-fluid radius" height={80} width={80} alt="NextJS" />
+            <Image src={Java} className="img-fluid radius" height={80} width={80} alt="Java" />
+            <Image src={Kotlin} className="img-fluid radius" height={80} width={80} alt="Kotlin" />
+            <Image src={Python} className="img-fluid radius" height={80} width={80} alt="Python" />
+            <Image src={MySQL} className="img-fluid radius" height={80} width={80} alt="MySQL" />
           </div>
 
           <hr />
 
           <div className="text-center mt-4 mb-4">
-            <Image src={Bootstrap} className="img-fluid radius" height={80} width={80} />
-            <Image src={Materialize} className="img-fluid radius" height={80} width={80} />
-            <Image src={ReactMUI} className="img-fluid radius" height={80} width={80} />
-            <Image src={ReactBootstrap} className="img-fluid radius" height={80} width={80} />
-            <Image src={Tailwindcss} className="img-fluid radius" height={80} width={80} />
-            <Image src={Laravel} className="img-fluid radius" height={80} width={80} />
-            <Image src={WordPress} className="img-fluid radius" height={80} width={80} />
-            <Image src={Zap} className="img-fluid radius" height={80} width={80} /> 
+            <Image src={Bootstrap} className="img-fluid radius" height={80} width={80} alt="Bootstrap" />
+            <Image src={Materialize} className="img-fluid radius" height={80} width={80} alt="Materialiaze" />
+            <Image src={ReactMUI} className="img-fluid radius" height={80} width={80} alt="React MUI" />
+            <Image src={ReactBootstrap} className="img-fluid radius" height={80} width={80} alt="React Bootstrap" />
+            <Image src={Tailwindcss} className="img-fluid radius" height={80} width={80} alt="Tailwind CSS" />
+            <Image src={Laravel} className="img-fluid radius" height={80} width={80} alt="Laravel" />
+            <Image src={WordPress} className="img-fluid radius" height={80} width={80} alt="WordPress" />
+            <Image src={Zap} className="img-fluid radius" height={80} width={80} alt="ZAP" /> 
           </div>
 
           <hr />
 
           <div className="text-center mt-4 mb-4">
-            <Image src={Github} className="img-fluid radius" height={80} width={80} /> 
-            <Image src={VSC} className="img-fluid radius" height={80} width={80} /> 
-            <Image src={Netlify} className="img-fluid radius" height={80} width={80} /> 
-            <Image src={Vercel} className="img-fluid radius" height={80} width={80} /> 
-            <Image src={Scrimba} className="img-fluid radius" height={80} width={80} /> 
-            <Image src={Heroku} className="img-fluid radius" height={80} width={80} /> 
-            <Image src={Sass} className="img-fluid radius" height={80} width={80} /> 
-            <Image src={AndroidStudio} className="img-fluid radius" height={80} width={80} /> 
-            <Image src={IntelliJ} className="img-fluid radius" height={80} width={80} /> 
-            <Image src={PyCharm} className="img-fluid radius" height={80} width={80} /> 
-            <Image src={Figma} className="img-fluid radius" height={80} width={80} /> 
-            <Image src={MongoDB} className="img-fluid radius" height={80} width={80} /> 
-            <Image src={Postman} className="img-fluid radius" height={80} width={80} /> 
-            <Image src={Newman} className="img-fluid radius" height={80} width={80} /> 
-            <Image src={Docker} className="img-fluid radius" height={80} width={80} /> 
+            <Image src={Github} className="img-fluid radius" height={80} width={80} alt="GitHub" /> 
+            <Image src={VSC} className="img-fluid radius" height={80} width={80} alt="VS Code" /> 
+            <Image src={Netlify} className="img-fluid radius" height={80} width={80} alt="Netlify" /> 
+            <Image src={Vercel} className="img-fluid radius" height={80} width={80} alt="Vercel" /> 
+            <Image src={Scrimba} className="img-fluid radius" height={80} width={80} alt="Scrimba" /> 
+            <Image src={Heroku} className="img-fluid radius" height={80} width={80} alt="Heroku" /> 
+            <Image src={Sass} className="img-fluid radius" height={80} width={80} alt="Sass" /> 
+            <Image src={AndroidStudio} className="img-fluid radius" height={80} width={80} alt="Android Studio" /> 
+            <Image src={IntelliJ} className="img-fluid radius" height={80} width={80} alt="IntelliJ IDEA" /> 
+            <Image src={PyCharm} className="img-fluid radius" height={80} width={80} alt="PyCharm" /> 
+            <Image src={Figma} className="img-fluid radius" height={80} width={80} alt="Figma" /> 
+            <Image src={MongoDB} className="img-fluid radius" height={80} width={80} alt="MongoDB" /> 
+            <Image src={Postman} className="img-fluid radius" height={80} width={80} alt="Postman" /> 
+            <Image src={Newman} className="img-fluid radius" height={80} width={80} alt="Newman" /> 
+            <Image src={Docker} className="img-fluid radius" height={80} width={80} alt="Docker" /> 
           </div>
         </Col>
       </Row>
-
-        {/* <Row>
-          <Col md={6} sm={12}>
-            <Card>
-              <Card.Header xs={12}>Frameworks</Card.Header>
-              <Card.Body>
-                <Row>
-                  <Col md={4} sm={4} xs={6} 
-                  className='my-2 hover-shrink'>
-                    <Image src={Bootstrap}
-                      width={200} 
-                      height={100} /> 
-                    <Card.Title>Bootstrap</Card.Title>
-                  </Col>
-
-                  <Col md={4} sm={4} xs={6} 
-                  className='my-2 hover-shrink'>
-                    <Image src={Materialize}
-                      width={200} 
-                      height={100} /> 
-                    <Card.Title>Materialize</Card.Title>
-                  </Col>
-
-                  <Col md={4} sm={4} xs={6} 
-                  className='my-2 hover-shrink'>
-                    <Image src={ReactBootstrap}
-                      width={200} 
-                      height={100} /> 
-                    <Card.Title>React Bootstrap</Card.Title>
-                  </Col>
-
-                  <Col md={4} sm={4} xs={6} 
-                  className='my-2 hover-shrink'>
-                    <Image src={ReactMUI}
-                      width={200} 
-                      height={100} /> 
-                    <Card.Title>React MUI</Card.Title>
-                  </Col>
-
-                  <Col md={4} sm={4} xs={6} 
-                  className='my-2 hover-shrink'>
-                    <Image src={Tailwindcss}
-                      width={200} 
-                      height={100} /> 
-                    <Card.Title>Tailwindcss</Card.Title>
-                  </Col>
-                </Row>
-              </Card.Body>
-            </Card>
-          </Col>
-
-          <Col md={6} sm={12}>
-            <Card>
-              <Card.Header xs={12}>Tools</Card.Header>
-              <Card.Body>
-                <Row>
-                  <Col md={4} sm={4} xs={6} 
-                  className='my-2 hover-shrink'>
-                    <Image src={Github}
-                      width={200} 
-                      height={100} /> 
-                    <Card.Title>Github</Card.Title>
-                  </Col>
-
-                  <Col md={4} sm={4} xs={6} 
-                  className='my-2 hover-shrink'>
-                    <Image src={Netlify}
-                      width={200} 
-                      height={100} /> 
-                    <Card.Title>Netlify</Card.Title>
-                  </Col>
-
-                  <Col md={4} sm={4} xs={6} 
-                  className='my-2 hover-shrink'>
-                    <Image src={Vercel}
-                      width={200} 
-                      height={100} />
-                    <Card.Title>Vercel</Card.Title>
-                  </Col>
-
-                  <Col md={4} sm={4} xs={6} 
-                  className='my-2 hover-shrink'>
-                    <Image src={Heroku}
-                      width={200} 
-                      height={100} /> 
-                    <Card.Title>Heroku</Card.Title>
-                  </Col>
-
-                  <Col md={4} sm={4} xs={6} 
-                  className='my-2 hover-shrink'>
-                    <Image src={Scrimba}
-                      width={200} 
-                      height={100} /> 
-                    <Card.Title>Scrimba</Card.Title>
-                  </Col>
-
-                  <Col md={4} sm={4} xs={6} 
-                  className='my-2 hover-shrink'>
-                    <Image src={Docker}
-                      width={200} 
-                      height={100} /> 
-                    <Card.Title>Docker</Card.Title>
-                  </Col>
-                </Row>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-
-        <Card className='mt-4'>
-          <Card.Header xs={12}>Programming Languages</Card.Header>
-          <Card.Body>
-            <Row>
-              <Col md={2} sm={3} xs={6} 
-              className='my-2 hover-shrink'>
-                <Image src={Html}
-                  width={170} 
-                  height={200} /> 
-                <Card.Title>HTML</Card.Title>
-              </Col>
-
-              <Col md={2} sm={3} xs={6} 
-              className='my-2 hover-shrink'>
-                <Image src={Css}
-                  width={170} 
-                  height={200} /> 
-                <Card.Title>CSS</Card.Title>
-              </Col>
-
-              <Col md={2} sm={3} xs={6} 
-              className='my-2 hover-shrink'>
-                <Image src={Js}
-                  width={170} 
-                  height={200} />
-                <Card.Title>JavaScript</Card.Title>
-              </Col>
-
-              <Col md={2} sm={3} xs={6} 
-              className='my-2 hover-shrink'>
-                <Image src={Php}
-                  width={180} 
-                  height={200} /> 
-                <Card.Title>PHP</Card.Title>
-              </Col>
-
-              <Col md={2} sm={3} xs={6} 
-              className='my-2 hover-shrink'>
-                <Image src={MySQL}
-                  width={150} 
-                  height={200} /> 
-                <Card.Title>MYSQL</Card.Title>
-              </Col>
-
-              <Col md={2} sm={3} xs={6} 
-              className='my-2 hover-shrink'>
-                <Image src={Python}
-                  width={150} 
-                  height={200} /> 
-                <Card.Title>Python</Card.Title>
-              </Col>
-
-              <Col md={2} sm={3} xs={6} 
-              className='my-2 hover-shrink'>
-                <Image src={Reactjs}
-                  width={150} 
-                  height={200} /> 
-                <Card.Title>Reactjs</Card.Title>
-              </Col>
-
-              <Col md={2} sm={3} xs={6} 
-              className='my-2 hover-shrink'>
-                <Image src={Nextjs}
-                  width={150} 
-                  height={200} /> 
-                <Card.Title>Nextjs</Card.Title>
-              </Col>
-            </Row> */}
-          {/* </Card.Body> */}
-        {/* </Card> */}
-        <Footer />
+      <Footer />
       </Container>
     </section>
   )
