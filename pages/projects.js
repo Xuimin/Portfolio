@@ -32,20 +32,20 @@ function Projects() {
         </h1>
         
         <Tabs defaultActiveKey="assignment" id="uncontrolled-tab-example" className="mb-3">
-          <Tab eventKey="assignment" title="Class Assignment">
-            <Assignment />
-          </Tab>
-
-          <Tab eventKey="project" title="Project">
+        <Tab eventKey="project" title="Project">
             <AllProjects />
-          </Tab>
-
-          <Tab eventKey="presentation" title="Presentation/Prototype">
-            <Presentation />
           </Tab>
 
           <Tab eventKey="mobile_app" title="Mobile App">
             <MobileApp />
+          </Tab>
+
+          <Tab eventKey="assignment" title="Class Assignment">
+            <Assignment />
+          </Tab>
+
+          <Tab eventKey="presentation" title="Presentation/Prototype">
+            <Presentation />
           </Tab>
         </Tabs>
         <Footer />

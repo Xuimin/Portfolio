@@ -16,6 +16,7 @@ import Polkadot from '../../asset/projectImages/polkadot-clone.jpg'
 import Redmi from '../../asset/projectImages/redmi-clone.jpg'
 import USDCoin from '../../asset/projectImages/usdc-clone.jpg'
 import Quotes from '../../asset/projectImages/quotes-pwa.jpg'
+import Pokemon from '../../asset/projectImages/pokemon-ds.jpg'
 
 function Assignment() {
   return (
@@ -109,6 +110,16 @@ function Assignment() {
             alt="Inspirational Quotes" /> 
           </a>
           <small>15 May 2022</small>
+        </Col>
+
+        <Col md={4} sm={6} xs={12} className='my-2 hover-grow'>
+          <a href='#'>
+            <Image src={Pokemon}
+            width={700} 
+            height={500}
+            alt="Pokemon" /> 
+          </a>
+          <small>8 Nov 2022</small>
         </Col>
       </Row>
     </Container>

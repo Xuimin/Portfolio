@@ -4,6 +4,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
+    "deploy": "npm run build && npm run export",
     "start": "next start",
     "lint": "next lint"
   },
@@ -14,7 +16,7 @@
     "bootstrap-icons": "^1.8.0",
     "caniuse-lite": "^1.0.30001430",
     "graphql": "^16.3.0",
-    "next": "^12.0.9",
+    "next": "^12.3.2",
     "postcss": "^8.4.5",
     "react": "17.0.2",
     "react-bootstrap": "^2.1.2",
