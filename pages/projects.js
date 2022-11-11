@@ -31,7 +31,7 @@ function Projects() {
           <span className='title'> My Work </span>
         </h1>
         
-        <Tabs defaultActiveKey="assignment" id="uncontrolled-tab-example" className="mb-3">
+        <Tabs defaultActiveKey="project" id="uncontrolled-tab-example" className="mb-3">
         <Tab eventKey="project" title="Project">
             <AllProjects />
           </Tab>
